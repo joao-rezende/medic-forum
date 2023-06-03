@@ -4,8 +4,12 @@
 
 Instale as dependências:
   
- ```npm install ```
+ ```
+ npm install
+  ```
 
 Execute o comando de execução:
 
-```npm run dev```
+```
+npm run dev
+```
