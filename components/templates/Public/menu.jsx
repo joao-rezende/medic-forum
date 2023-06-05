@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ArrowLeftOnRectangleIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link'
 
 const Menu = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -10,10 +11,10 @@ const Menu = () => {
     <header className="bg-white border-b">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Fórum Médico</span>
             <span className='font-bold'>Fórum Médico</span>
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -26,10 +27,10 @@ const Menu = () => {
           </button>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-center mx-10">
-          <label class="relative block w-3/4">
-            <span class="sr-only"></span>
-            <span class="absolute inset-y-0 left-0 flex items-center pl-5">
-              <svg class="h-5 w-5 fill-gray-500" viewBox="0 0 20 20">
+          <label className="relative block w-3/4">
+            <span className="sr-only"></span>
+            <span className="absolute inset-y-0 left-0 flex items-center pl-5">
+              <svg className="h-5 w-5 fill-gray-500" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
               </svg>
             </span>
@@ -37,9 +38,9 @@ const Menu = () => {
           </label>
         </div>
         <div className="hidden lg:flex lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-white py-3 px-6 rounded-full bg-lightgreen flex items-center gap-1">
+          <Link href="/login" className="text-sm font-semibold leading-6 text-white py-3 px-6 rounded-full bg-lightgreen flex items-center gap-1">
             Entrar <ArrowLeftOnRectangleIcon className="h-5 w-5" aria-hidden="true" />
-          </a>
+          </Link>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -66,12 +67,9 @@ const Menu = () => {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
+                <Link href="/login" className="text-sm font-semibold leading-6 text-white py-3 px-6 rounded-full bg-lightgreen flex items-center gap-1">
                   Entrar
-                </a>
+                </Link>
               </div>
             </div>
           </div>

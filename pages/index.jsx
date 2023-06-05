@@ -13,69 +13,69 @@ const Home = () => {
                 Discussões mais relevantes
               </h2>
               <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div class="flex items-start space-x-5 p-7">
+                <div className="flex items-start space-x-5 p-7">
                   <div className="relative">
-                    <img src="/avatars/avatar-3.jpg" alt="" class="w-12 h-12 rounded-full" />
+                    <img src="/avatars/avatar-3.jpg" alt="" className="w-12 h-12 rounded-full" />
                     <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
                   </div>
-                  <div class="flex-1">
-                    <a href="#" class="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas que ajudam no emagrecimento</a>
-                    <p class="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 hora atrás </p>
-                    <p class="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                  <div className="flex-1">
+                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas que ajudam no emagrecimento</a>
+                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 hora atrás </p>
+                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
                   </div>
-                  <div class="sm:flex items-center space-x-4 hidden">
+                  <div className="sm:flex items-center space-x-4 hidden">
                     <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span class="text-xl"> 13 </span>
+                    <span className="text-xl"> 13 </span>
                   </div>
                 </div>
               </div>
               <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div class="flex items-start space-x-5 p-7">
+                <div className="flex items-start space-x-5 p-7">
                   <div className="relative">
-                    <img src="/avatars/avatar-2.jpg" alt="" class="w-12 h-12 rounded-full" />
+                    <img src="/avatars/avatar-2.jpg" alt="" className="w-12 h-12 rounded-full" />
                   </div>
-                  <div class="flex-1">
-                    <a href="#" class="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Saiba o que pode interferir na sua saúde</a>
-                    <p class="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">John McCurty</a> 3 meses atrás </p>
-                    <p class="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                  <div className="flex-1">
+                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Saiba o que pode interferir na sua saúde</a>
+                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">John McCurty</a> 3 meses atrás </p>
+                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
                   </div>
-                  <div class="sm:flex items-center space-x-4 hidden">
+                  <div className="sm:flex items-center space-x-4 hidden">
                     <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span class="text-xl"> 24 </span>
+                    <span className="text-xl"> 24 </span>
                   </div>
                 </div>
               </div>
               <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div class="flex items-start space-x-5 p-7">
+                <div className="flex items-start space-x-5 p-7">
                   <div className="relative">
-                  <img src="/avatars/avatar-3.jpg" alt="" class="w-12 h-12 rounded-full" />
+                  <img src="/avatars/avatar-3.jpg" alt="" className="w-12 h-12 rounded-full" />
                     <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
                   </div>
-                  <div class="flex-1">
-                    <a href="#" class="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas mais saúdaveis e rápidas para se comer todos os dias</a>
-                    <p class="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 mês atrás </p>
-                    <p class="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                  <div className="flex-1">
+                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas mais saúdaveis e rápidas para se comer todos os dias</a>
+                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 mês atrás </p>
+                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
                   </div>
-                  <div class="sm:flex items-center space-x-4 hidden">
+                  <div className="sm:flex items-center space-x-4 hidden">
                     <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span class="text-xl"> 35 </span>
+                    <span className="text-xl"> 35 </span>
                   </div>
                 </div>
               </div>
               <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div class="flex items-start space-x-5 p-7">
+                <div className="flex items-start space-x-5 p-7">
                   <div className="relative">
-                    <img src="/avatars/avatar-1.jpg" alt="" class="w-12 h-12 rounded-full" />
+                    <img src="/avatars/avatar-1.jpg" alt="" className="w-12 h-12 rounded-full" />
                     <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
                   </div>
-                  <div class="flex-1">
-                    <a href="#" class="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Hábitos para se livrar da sua vida para ter uma boa saúde mental</a>
-                    <p class="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Bob Lee</a> 1 semana atrás </p>
-                    <p class="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                  <div className="flex-1">
+                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Hábitos para se livrar da sua vida para ter uma boa saúde mental</a>
+                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Bob Lee</a> 1 semana atrás </p>
+                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
                   </div>
-                  <div class="sm:flex items-center space-x-4 hidden">
+                  <div className="sm:flex items-center space-x-4 hidden">
                     <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span class="text-xl"> 18 </span>
+                    <span className="text-xl"> 18 </span>
                   </div>
                 </div>
               </div>
@@ -86,65 +86,65 @@ const Home = () => {
               </h3>
               <span className="text-slate-500">Pessoas com mais participações nos tópicos do fórum</span>
 
-              <div class="flex items-center justify-between space-x-3 mt-6">
+              <div className="flex items-center justify-between space-x-3 mt-6">
                 <div className="flex items-center space-x-1">
-                  <img src="/avatars/avatar-1.jpg" alt="" class="w-8 h-8 mr-2 rounded-full" />
-                  <a href="#" class="font-semibold"> Bob Lee</a>
+                  <img src="/avatars/avatar-1.jpg" alt="" className="w-8 h-8 mr-2 rounded-full" />
+                  <a href="#" className="font-semibold"> Bob Lee</a>
                   <CheckBadgeIcon className="fill-sky-500 h-5 w-5" aria-hidden="true" />
                 </div>
-                <div class="flex items-center space-x-2">
+                <div className="flex items-center space-x-2">
                   <span> 137 </span>
                   <ChatBubbleBottomCenterTextIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
               </div>
-              <div class="flex items-center justify-between space-x-3 mt-6">
+              <div className="flex items-center justify-between space-x-3 mt-6">
                 <div className="flex items-center space-x-1">
-                  <img src="/avatars/avatar-3.jpg" alt="" class="w-8 h-8 mr-2 rounded-full" />
-                  <a href="#" class="font-semibold"> Stella Johnson </a>
+                  <img src="/avatars/avatar-3.jpg" alt="" className="w-8 h-8 mr-2 rounded-full" />
+                  <a href="#" className="font-semibold"> Stella Johnson </a>
                   <CheckBadgeIcon className="fill-sky-500 h-5 w-5" aria-hidden="true" />
                 </div>
-                <div class="flex items-center space-x-2">
+                <div className="flex items-center space-x-2">
                   <span> 114 </span>
                   <ChatBubbleBottomCenterTextIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
               </div>
-              <div class="flex items-center justify-between space-x-3 mt-6">
+              <div className="flex items-center justify-between space-x-3 mt-6">
                 <div className="flex items-center space-x-1">
-                  <img src="/avatars/avatar-2.jpg" alt="" class="w-8 h-8 mr-2 rounded-full" />
-                  <a href="#" class="font-semibold"> John McCurty</a>
+                  <img src="/avatars/avatar-2.jpg" alt="" className="w-8 h-8 mr-2 rounded-full" />
+                  <a href="#" className="font-semibold"> John McCurty</a>
                 </div>
-                <div class="flex items-center space-x-2">
+                <div className="flex items-center space-x-2">
                   <span> 98 </span>
                   <ChatBubbleBottomCenterTextIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
               </div>
-              <div class="flex items-center justify-between space-x-3 mt-6">
+              <div className="flex items-center justify-between space-x-3 mt-6">
                 <div className="flex items-center space-x-1">
-                  <img src="/avatars/avatar-7.jpg" alt="" class="w-8 h-8 mr-2 rounded-full" />
-                  <a href="#" class="font-semibold"> Krystal Turner </a>
+                  <img src="/avatars/avatar-7.jpg" alt="" className="w-8 h-8 mr-2 rounded-full" />
+                  <a href="#" className="font-semibold"> Krystal Turner </a>
                 </div>
-                <div class="flex items-center space-x-2">
+                <div className="flex items-center space-x-2">
                   <span> 84 </span>
                   <ChatBubbleBottomCenterTextIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
               </div>
-              <div class="flex items-center justify-between space-x-3 mt-6">
+              <div className="flex items-center justify-between space-x-3 mt-6">
                 <div className="flex items-center space-x-1">
-                  <img src="/avatars/avatar-4.jpg" alt="" class="w-8 h-8 mr-2 rounded-full" />
-                  <a href="#" class="font-semibold"> Alan Swagger </a>
+                  <img src="/avatars/avatar-4.jpg" alt="" className="w-8 h-8 mr-2 rounded-full" />
+                  <a href="#" className="font-semibold"> Alan Swagger </a>
                   <CheckBadgeIcon className="fill-sky-500 h-5 w-5" aria-hidden="true" />
                 </div>
-                <div class="flex items-center space-x-2">
+                <div className="flex items-center space-x-2">
                   <span> 77 </span>
                   <ChatBubbleBottomCenterTextIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
               </div>
-              <div class="flex items-center justify-between space-x-3 mt-6">
+              <div className="flex items-center justify-between space-x-3 mt-6">
                 <div className="flex items-center space-x-1">
-                  <img src="/avatars/avatar-6.jpg" alt="" class="w-8 h-8 mr-2 rounded-full" />
-                  <a href="#" class="font-semibold"> Carly Jhonson </a>
+                  <img src="/avatars/avatar-6.jpg" alt="" className="w-8 h-8 mr-2 rounded-full" />
+                  <a href="#" className="font-semibold"> Carly Jhonson </a>
                 </div>
-                <div class="flex items-center space-x-2">
+                <div className="flex items-center space-x-2">
                   <span> 61 </span>
                   <ChatBubbleBottomCenterTextIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
