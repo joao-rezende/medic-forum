@@ -1,6 +1,6 @@
 import Public from "/components/templates/Public"
-import { ChatBubbleBottomCenterTextIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/24/outline'
-import { CheckBadgeIcon } from '@heroicons/react/20/solid'
+import { UserPlusIcon, ChatBubbleBottomCenterTextIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/24/outline'
+import { CheckBadgeIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 
 const Home = () => {
   return (
@@ -9,73 +9,91 @@ const Home = () => {
         <section className="max-w-7xl mx-auto p-6 lg:px-8">
           <div className="lg:flex gap-8">
             <div className="lg:w-2/3 flex-shirink-0">
-              <h2 className="text-2xl font-bold mb-5">
-                Discussões mais relevantes
-              </h2>
-              <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div className="flex items-start space-x-5 p-7">
-                  <div className="relative">
-                    <img src="/avatars/avatar-3.jpg" alt="" className="w-12 h-12 rounded-full" />
-                    <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
+              <div id="relevant-topics">
+                <h2 className="text-2xl font-bold mb-5">
+                  Discussões mais relevantes
+                </h2>
+                <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
+                  <div className="flex items-start space-x-5 p-7">
+                    <div className="relative">
+                      <img src="/avatars/avatar-3.jpg" alt="" className="w-12 h-12 rounded-full" />
+                      <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
+                    </div>
+                    <div className="flex-1">
+                      <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas que ajudam no emagrecimento</a>
+                      <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 hora atrás </p>
+                      <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                    <div className="sm:flex items-center space-x-4 hidden">
+                      <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
+                      <span className="text-xl"> 13 </span>
+                    </div>
                   </div>
-                  <div className="flex-1">
-                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas que ajudam no emagrecimento</a>
-                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 hora atrás </p>
-                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                </div>
+                <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
+                  <div className="flex items-start space-x-5 p-7">
+                    <div className="relative">
+                      <img src="/avatars/avatar-2.jpg" alt="" className="w-12 h-12 rounded-full" />
+                    </div>
+                    <div className="flex-1">
+                      <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Saiba o que pode interferir na sua saúde</a>
+                      <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">John McCurty</a> 3 meses atrás </p>
+                      <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                    <div className="sm:flex items-center space-x-4 hidden">
+                      <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
+                      <span className="text-xl"> 24 </span>
+                    </div>
                   </div>
-                  <div className="sm:flex items-center space-x-4 hidden">
-                    <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span className="text-xl"> 13 </span>
+                </div>
+                <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
+                  <div className="flex items-start space-x-5 p-7">
+                    <div className="relative">
+                      <img src="/avatars/avatar-3.jpg" alt="" className="w-12 h-12 rounded-full" />
+                      <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
+                    </div>
+                    <div className="flex-1">
+                      <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas mais saúdaveis e rápidas para se comer todos os dias</a>
+                      <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 mês atrás </p>
+                      <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                    <div className="sm:flex items-center space-x-4 hidden">
+                      <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
+                      <span className="text-xl"> 35 </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
+                  <div className="flex items-start space-x-5 p-7">
+                    <div className="relative">
+                      <img src="/avatars/avatar-1.jpg" alt="" className="w-12 h-12 rounded-full" />
+                      <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
+                    </div>
+                    <div className="flex-1">
+                      <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Hábitos para se livrar da sua vida para ter uma boa saúde mental</a>
+                      <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Bob Lee</a> 1 semana atrás </p>
+                      <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+                    </div>
+                    <div className="sm:flex items-center space-x-4 hidden">
+                      <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
+                      <span className="text-xl"> 18 </span>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div className="flex items-start space-x-5 p-7">
-                  <div className="relative">
-                    <img src="/avatars/avatar-2.jpg" alt="" className="w-12 h-12 rounded-full" />
+              <div id="join-us" className="mt-8">
+                <div className="flex flex-row gap-7">
+                  <div className="lg:w-1/2 shadow-lg shadow-zinc-800/10 rounded-md border border-lightgreen bg-lightgreen/20 text-gray-700 p-8 text-center">
+                    <UserPlusIcon className="h-12 w-12 mx-auto text-lightgreen mb-4" />
+                    <h3 className="text-xl font-bold mb-3">Entre para nossa comunidade</h3>
+                    <p>Entra para a nossa comunidade e fique por dentro dos principais tópicos que estão sendo discutidos</p>
+                    <button type="button" className="bg-lightgreen text-white mt-5 py-3 px-6 rounded-md">Junte-se a Nós</button>
                   </div>
-                  <div className="flex-1">
-                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Saiba o que pode interferir na sua saúde</a>
-                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">John McCurty</a> 3 meses atrás </p>
-                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-                  </div>
-                  <div className="sm:flex items-center space-x-4 hidden">
-                    <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span className="text-xl"> 24 </span>
-                  </div>
-                </div>
-              </div>
-              <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div className="flex items-start space-x-5 p-7">
-                  <div className="relative">
-                  <img src="/avatars/avatar-3.jpg" alt="" className="w-12 h-12 rounded-full" />
-                    <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
-                  </div>
-                  <div className="flex-1">
-                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Comidas mais saúdaveis e rápidas para se comer todos os dias</a>
-                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Stella Johnson</a> 1 mês atrás </p>
-                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-                  </div>
-                  <div className="sm:flex items-center space-x-4 hidden">
-                    <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span className="text-xl"> 35 </span>
-                  </div>
-                </div>
-              </div>
-              <div className="shadow-lg shadow-zinc-800/10 mt-5 rounded-md border bg-white">
-                <div className="flex items-start space-x-5 p-7">
-                  <div className="relative">
-                    <img src="/avatars/avatar-1.jpg" alt="" className="w-12 h-12 rounded-full" />
-                    <CheckBadgeIcon className="bg-white rounded-full absolute left-[67%] top-[67%] fill-sky-500 h-5 w-5" aria-hidden="true" />
-                  </div>
-                  <div className="flex-1">
-                    <a href="#" className="text-lg font-semibold line-clamp-1 mb-1 hover:text-emerald-600">Hábitos para se livrar da sua vida para ter uma boa saúde mental</a>
-                    <p className="text-sm text-gray-400 mb-2"> Postado por: <a href="#" className="underline">Bob Lee</a> 1 semana atrás </p>
-                    <p className="leading-6 line-clamp-2 mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-                  </div>
-                  <div className="sm:flex items-center space-x-4 hidden">
-                    <ChatBubbleLeftRightIcon className="h-8 w-8" aria-hidden="true" />
-                    <span className="text-xl"> 18 </span>
+                  <div className="lg:w-1/2 shadow-lg shadow-zinc-800/10 rounded-md border border-sky-700 bg-sky-700/20 text-gray-700 p-8 text-center">
+                    <MagnifyingGlassIcon className="h-12 w-12 mx-auto text-sky-700 mb-4" />
+                    <h3 className="text-xl font-bold mb-3">Qual é a sua dúvida?</h3>
+                    <p>Inicie uma nova discussão com a sua dúvida para que outros pesoas com as mesmas dúvidas vejam</p>
+                    <button type="button" className="bg-sky-700 text-white mt-5 py-3 px-6 rounded-md">Criar Discussão</button>
                   </div>
                 </div>
               </div>
